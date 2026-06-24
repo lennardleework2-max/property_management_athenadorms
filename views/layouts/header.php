@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo e($pageTitle ?? 'Athena Dorms'); ?> - Property Management</title>
-    <link rel="icon" type="image/png" href="public/assets/images/athena_logo.png">
+    <link rel="icon" type="image/png" href="/public/assets/images/athena_logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="public/assets/css/style.css" rel="stylesheet">
+    <link href="/public/assets/css/style.css" rel="stylesheet">
 </head>
 <body>
     <!-- Top Navbar -->
@@ -21,7 +21,7 @@
 
             <!-- Brand -->
             <a class="navbar-brand d-flex align-items-center" href="index.php?action=dashboard">
-                <img src="public/assets/images/athena_logo.png" alt="Athena Dorms" height="40">
+                <img src="/public/assets/images/athena_logo.png" alt="Athena Dorms" height="40">
                 <span class="ms-2 brand-text d-none d-md-inline">Athena Dorms</span>
             </a>
 

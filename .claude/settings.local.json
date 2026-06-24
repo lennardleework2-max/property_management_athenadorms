@@ -14,7 +14,13 @@
       "Bash(cmd /c 'cd /d D:\\\\xampp-php8.5\\\\htdocs\\\\property_management_athenadorms && del /f /q \"\"\\\\\\\\?\\\\%cd%\\\\nul\"\"')",
       "Bash(cmd /c 'cd /d D:\\\\xampp-php8.5\\\\htdocs\\\\property_management_athenadorms && ren nul nul.txt 2>nul || echo rename failed')",
       "Bash(powershell -Command \"Remove-Item -Path ''\\\\?\\\\D:\\\\xampp-php8.5\\\\htdocs\\\\property_management_athenadorms\\\\nul'' -Force\")",
-      "Bash(powershell -Command \"Get-ChildItem ''D:\\\\xampp-php8.5\\\\htdocs\\\\property_management_athenadorms'' | Where-Object {$_Name -eq ''nul''}\")"
+      "Bash(powershell -Command \"Get-ChildItem ''D:\\\\xampp-php8.5\\\\htdocs\\\\property_management_athenadorms'' | Where-Object {$_Name -eq ''nul''}\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Athena Dorms Property Management System\n\nPHP-based property management system with:\n- User authentication and role-based access control\n- Property, room, bedspace, tenant, and lease management\n- Payment tracking and utility management\n- Reports with PDF/Excel export\n- Vercel serverless deployment configuration\n- Supabase PostgreSQL database integration\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(gh auth status:*)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nFix asset paths for Vercel deployment\n\nChanged relative paths to absolute paths \\(added leading /\\) for:\n- Images \\(logos\\)\n- CSS stylesheet  \n- JavaScript files\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nFix static file serving on Vercel\n\nAdded handle: filesystem to serve static files \\(images, CSS, JS\\) \nbefore routing to PHP\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }
