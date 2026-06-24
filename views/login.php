@@ -388,7 +388,7 @@
     <div class="login-container">
         <div class="login-card">
             <div class="logo-container">
-                <img src="public/assets/images/athena_logo.png" alt="Athena Dorms">
+                <img src="/public/assets/images/athena_logo.png" alt="Athena Dorms">
             </div>
 
             <h1 class="login-title">Welcome Back</h1>
@@ -438,7 +438,7 @@
                 <p>Athena Dorms Property Management System</p>
                 <div class="powered-by">
                     <span>Powered by</span>
-                    <img src="public/assets/images/avax_logo.png" alt="AvaxTech Solutions" class="avax-logo">
+                    <img src="/public/assets/images/avax_logo.png" alt="AvaxTech Solutions" class="avax-logo">
                     <span>AvaxTech Solutions</span>
                 </div>
             </div>

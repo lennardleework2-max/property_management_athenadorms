@@ -3,7 +3,7 @@
         <div class="sidebar-content">
             <!-- Logo area -->
             <div class="sidebar-header">
-                <img src="public/assets/images/athena_logo.png" alt="Athena Dorms" class="sidebar-logo">
+                <img src="/public/assets/images/athena_logo.png" alt="Athena Dorms" class="sidebar-logo">
                 <button class="btn btn-link sidebar-close d-lg-none" id="sidebarClose">
                     <i class="bi bi-x-lg"></i>
                 </button>
@@ -159,7 +159,7 @@
             <div class="sidebar-footer">
                 <div class="powered-by">
                     <small>Powered by</small>
-                    <img src="public/assets/images/avax_logo.png" alt="AvaxTech" class="avax-logo-small">
+                    <img src="/public/assets/images/avax_logo.png" alt="AvaxTech" class="avax-logo-small">
                     <small>AvaxTech Solutions</small>
                 </div>
             </div>
