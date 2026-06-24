@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php:*)",
+      "Bash(more:*)",
+      "Bash(d:xampp-php8.5phpphp.exe -i)",
+      "Bash(d:xampp-php8.5phpphp.exe -m)",
+      "Bash(where:*)",
+      "Bash(claude mcp add:*)",
+      "Bash(vercel --version:*)",
+      "Bash(del \"\\\\?\\\\D:\\\\xampp-php8.5\\\\htdocs\\\\property_management_athenadorms\\\\nul\")",
+      "Bash(cmd /c 'del \"\"\\\\\\\\?\\\\D:\\\\xampp-php8.5\\\\htdocs\\\\property_management_athenadorms\\\\nul\"\"')",
+      "Bash(git add:*)",
+      "Bash(cmd /c 'cd /d D:\\\\xampp-php8.5\\\\htdocs\\\\property_management_athenadorms && del /f /q \"\"\\\\\\\\?\\\\%cd%\\\\nul\"\"')",
+      "Bash(cmd /c 'cd /d D:\\\\xampp-php8.5\\\\htdocs\\\\property_management_athenadorms && ren nul nul.txt 2>nul || echo rename failed')",
+      "Bash(powershell -Command \"Remove-Item -Path ''\\\\?\\\\D:\\\\xampp-php8.5\\\\htdocs\\\\property_management_athenadorms\\\\nul'' -Force\")",
+      "Bash(powershell -Command \"Get-ChildItem ''D:\\\\xampp-php8.5\\\\htdocs\\\\property_management_athenadorms'' | Where-Object {$_Name -eq ''nul''}\")"
+    ]
+  }
+}

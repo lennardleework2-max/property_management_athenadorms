@@ -1,0 +1,32 @@
+# Athena Dorms Property Management System
+# Apache Configuration
+
+# Disable directory browsing
+Options -Indexes
+
+# Enable mod_rewrite
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Redirect to index.php if file doesn't exist
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php?action=$1 [QSA,L]
+</IfModule>
+
+# Protect sensitive files (Apache 2.4 syntax)
+<FilesMatch "^(\.env|\.gitignore|composer\.json|composer\.lock)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+</FilesMatch>
+
+# Set charset
+AddDefaultCharset UTF-8
+
+# Enable CORS for AJAX
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type"
+</IfModule>

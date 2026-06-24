@@ -1,0 +1,27 @@
+# Git
+.git
+.gitignore
+
+# Development files
+*.sql
+*.md
+README*
+
+# Test files
+test.php
+debug_test.php
+check_*.php
+phpinfo.php
+simple.php
+fix_admin.php
+reseed_passwords.php
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

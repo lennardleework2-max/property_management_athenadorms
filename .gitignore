@@ -1,0 +1,26 @@
+.vercel
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test/Debug files
+test.php
+debug_test.php
+check_*.php
+phpinfo.php
+simple.php
+fix_admin.php
+reseed_passwords.php
+
+# Logs
+*.log
+
+# Windows reserved filenames
+nul
